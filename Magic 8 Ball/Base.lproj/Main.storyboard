@@ -41,11 +41,17 @@
                                 <state key="normal" title="Ask">
                                     <color key="titleColor" red="0.078431372549019607" green="0.63921568627450975" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="askButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3TF-QK-YSB"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.53122156628592954" green="1" blue="0.7673137138732492" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="XKv-e1-wsH" id="Pba-z6-i31"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
