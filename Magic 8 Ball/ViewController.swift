@@ -32,7 +32,9 @@ class ViewController: UIViewController {
         newBallImage()
     }
     
-    
+    override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
+        newBallImage()
+    }
     func newBallImage() {
         randomBallView = Int(arc4random_uniform(5))
         imageView.image = UIImage(named : ballArray[randomBallView])
